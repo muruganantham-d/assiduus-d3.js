@@ -1,0 +1,34 @@
+.in-out{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.caseflow-head{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 2px;
+}
+.in-out-align{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.in-color{
+   background-color: #02BB7D;
+   width: 17px;
+   height: 17px;
+   border-radius: 4px;
+}
+.out-color{
+   background-color: #47B747;
+   width: 17px;
+   height: 17px;
+   border-radius: 4px;
+}
+.in-out-text{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 13px !important;
+    margin-left: 10px;
+}

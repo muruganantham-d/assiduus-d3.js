@@ -1,20 +1,32 @@
+/* Default styles for larger screens */
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 20px;
-    width: 100%;
-    margin: 20px;
-    background: #F6F7F9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px;
+  width: 100%;
+  margin: 20px;
+  background: #F6F7F9;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  width: 556px;
+  height: 253px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+/* Media query for screens with a width of 360 pixels and below */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    margin-left: 10px; /* Adjust margin for smaller screens */
   }
-  
+
   .grid-item {
-    border: 1px solid #000;
-    padding: 20px;
-    text-align: center;
-    width: 556px;
-    height: 253px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
+    width: 100%; /* Take up the full width of the container */
   }
-  
-  
+}

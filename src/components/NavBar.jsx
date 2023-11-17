@@ -172,7 +172,7 @@ export default function PrimarySearchAppBar() {
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
             {/* logo */}
-               {/* <img src={image} alt="Assiduus" width="150" height="49" /> */}
+               <img src={image} alt="Assiduus" width="150" height="49" />
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>

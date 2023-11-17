@@ -1,11 +1,16 @@
 .content-page{
     display: flex;
-    margin-top: 50px;
+    margin-top: 45px;
     background: #F6F7F9;
+    
 }
 .sidebar-app{
     width: 13%;
 }
-.hompage-app{
 
-}
+@media (max-width: 600px) {
+    .sidebar-app {
+        width: 30%;
+    }}
+
+

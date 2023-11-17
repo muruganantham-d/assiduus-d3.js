@@ -6,6 +6,8 @@
 
 .watchlist-line{
     margin-top: 17px;
+    width: 595px;
+    margin-left: -20px;
 }
 .table-containers  .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
     box-shadow: none !important;

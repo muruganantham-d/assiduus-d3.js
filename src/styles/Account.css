@@ -16,6 +16,7 @@
     box-shadow: 0px 0px 1px;
     font-family: 'Manrope', sans-serif;
     color: #54595F;
+    cursor: pointer;
 }
 
 .dropdown-date{
@@ -58,4 +59,6 @@
 }
 .lchart-line{
     margin-top: 13px;
+    width: 595px;
+    margin-left: -20px;
 }

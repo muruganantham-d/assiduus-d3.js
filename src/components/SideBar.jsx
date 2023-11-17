@@ -27,7 +27,7 @@ const Sidebar = () => {
 
   return (
     <div className='side-bar'>
-      <ul  className='side-bar'>
+      <ul  className='side-bar side-bar-2'>
         {navItems.map((item, index) => (
           <li key={index} className='side-list'>
              <span className='sidbar-item'>{item.icon}</span>

@@ -4,6 +4,10 @@
     height: 100vh;
     margin-top: 20px;
   }
+
+  .side-bar-2{
+     padding-top: 17px;
+  }  
   
   .side-list {
     width: 100%;
@@ -12,6 +16,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
   }
   
   /* Apply hover style to list items on hover */

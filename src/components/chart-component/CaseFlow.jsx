@@ -1,6 +1,6 @@
 import React from 'react';
 import BarChartTow from './chart/BarChartTow';
-import { Button } from '@mui/material';
+import '../../styles/CaseFlow.css'
 
 const data = [
   { label: 'August', segments: [{ top: 7, bottom: 4, colors: ['#02BB7D', '#47B747'] }] },
@@ -14,9 +14,18 @@ const data = [
 const CaseFlow = () => {
   return (
     <div>
-      <div className='barchart-one-head'>
-        <div className='invice-head'>Invoices owed to you</div>
-        <Button className='invoice-button'>New Sales Invoice</Button>
+      <div className='caseflow-head'>
+        <div className='invice-head'>Total cash flow</div>
+        <div className='in-out'>
+              <div className='in-out-align'>
+                  <div className='in-color'></div>
+                   <div className='in-out-text'>In</div>
+                </div>
+              <div className='in-out-align'>
+                <div className='out-color'></div>
+                <div className='in-out-text'>Out</div>
+                </div>
+        </div>
       </div>
       <hr className='horizontal-line'></hr>
       <BarChartTow data={data} />

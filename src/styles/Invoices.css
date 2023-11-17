@@ -16,3 +16,8 @@
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
 }
+
+.horizontal-line{
+    width: 595px;
+    margin-left: -20px;
+}
