@@ -1,0 +1,12 @@
+/* BarChart.css */
+.bar {
+    fill: #47B747;
+    /* border-radius: 50%!important; */
+  }
+  
+  .x-axis text {
+    dy: 20px !important;
+    fill: #C1C3C5;
+    font-size: 12px;
+    font-weight: 600;
+  }

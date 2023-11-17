@@ -1,0 +1,45 @@
+.my-navebar{
+    z-index: 1300 !important;
+}
+
+.css-hyum1k-MuiToolbar-root{
+    background-color: #FFFFFF !important;
+    color: black;
+    box-shadow: none !important;
+}
+
+/* for notification */
+.notification-icon-button {
+    position: relative;
+  }
+  
+  .green-dot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #47B747;
+    border-radius: 50%;
+  }
+
+  .my-navebar .css-1kcggdq-MuiInputBase-root {
+    background: #F6F7F9 !important;
+    margin-right: 30px;
+    border-radius: 4px;
+  }
+  .my-navebar  .css-1iz4iln{
+    z-index: 2 !important;
+  }
+  .css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+    margin-right: 10px !important;
+  }
+  .account-icon .css-i4bv87-MuiSvgIcon-root {
+    font-size: 2rem !important;
+}
+.my-navebar .css-1guk29 {
+    align-items: center !important;
+}
+.my-navebar .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+    box-shadow: none !important;
+}

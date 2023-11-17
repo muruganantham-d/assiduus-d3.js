@@ -1,0 +1,31 @@
+.side-bar {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+  }
+  
+  .side-list {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Apply hover style to list items on hover */
+  .side-list:hover {
+    background: #47B747;
+    cursor: pointer;
+  }
+  
+  /* Reset hover style for the first list item */
+  .side-list:first-child {
+    background: #47B747;
+  }
+  
+  .sidbar-item {
+    padding-right: 20px;
+  }
+  

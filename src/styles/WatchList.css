@@ -1,0 +1,16 @@
+.watchlist-head{
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+
+.watchlist-line{
+    margin-top: 17px;
+}
+.table-containers  .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    box-shadow: none !important;
+}
+
+.table-heading{
+    color: #BEC0C2 !important;
+}

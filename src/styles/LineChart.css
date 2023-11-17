@@ -1,0 +1,12 @@
+/* LineChart.css */
+
+.line-chart-svg .x-axis line {
+    /* Your x-axis line styles here */
+    stroke: #ccc;
+    stroke-width: 1;
+    stroke-dasharray: 4;
+    display: none !important;
+  }
+
+
+  
