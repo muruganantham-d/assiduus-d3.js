@@ -84,15 +84,20 @@ const LineChart = ({ data, width, height, selectedDate }) => {
     svg.select(".y-axis").select("path").style("display", "none");
 
     ///MoseHover & ToolTip
-    function handleMouseOver(event, d) {
-      const mouseX = event.pageX - margin.left;
-      const mouseY = event.pageY - margin.top;
-
-      setTooltip({
-        content: `Y: ${d3.format(".2f")(yScale.invert(yScale(d.y)))}`,
-        x: mouseX,
-        y: mouseY,
-      });
+    function handleMouseOver(event) {
+      const [mouseX, mouseY] = d3.pointer(event);
+      const bisect = d3.bisector((d) => d.x).left;
+      const index = bisect(data, xScale.invert(mouseX));
+    
+      const nearestDataPoint = data[index];
+    
+      if (nearestDataPoint) {
+        setTooltip({
+          content: `Y: ${d3.format(".2f")(nearestDataPoint.y)}`,
+          x: mouseX + margin.left,
+          y: mouseY + margin.top,
+        });
+      }
     }
 
     function handleMouseMove(event, d) {
