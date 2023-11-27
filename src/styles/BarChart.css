@@ -5,7 +5,7 @@
   }
   
   .x-axis text {
-    dy: 20px !important;
+    /* dy: 20px !important; */
     fill: #C1C3C5;
     font-size: 12px;
     font-weight: 600;
